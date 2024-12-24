@@ -16,8 +16,13 @@
         <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
         <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
       </fieldset>
+    <fieldset>
+      <legend>Account type (required)</legend>
+      <label for="account-personal"><input type="radio" name="account-type" id="account-personal"/> Personal</label>
+      <label for="account-business"><input type="radio" name="account-type" id="account-business"/> Business</label>
+    </fieldset>
     <fieldset></fieldset>
-    <fieldset></fieldset>
+    <label for="terms-and-conditions"><input type="checkbox" id="terms-and-conditions" required/>I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
     <input type="submit" value="Submit" />
   </body>
 </html>  
